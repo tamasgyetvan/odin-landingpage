@@ -7,23 +7,23 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    color: white;
+    color: #E5E7EB;
     justify-content: space-between;
-    padding: 25px;
+    padding: 50px;
     margin: 0px;
 }
 .title {
     font-size: 24px;
     color: #E5E7EB;
     font-weight: 600;
-    margin-left: 60px;
+    
 }
 
 .menu {
     display: flex;
     font-size: 18px;
     color: #E5E7EB; 
-    margin-right: 60px;
+    
     gap: 20px;
 }
 
@@ -35,4 +35,60 @@ a {
 
 a:visited {
     color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/**styling section1**/
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: space-between;
+    
+}
+
+.section1left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0px;
+    padding: 50px;
+
+}
+
+.picture {
+    display: flex;
+    flex: 1 1 0px;
+}
+
+.section1title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+
+.section1 .picture {
+    padding: 50px;
+}
+
+.section1subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 2px;
+    margin-top: 10px;
 }

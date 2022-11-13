@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0px;
+}
+.title {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB; 
+    margin-right: 60px;
+    gap: 20px;
+}
+
+/** remove visited link color**/
+
+a {
+    color: #E5E7EB; 
+}
+
+a:visited {
+    color: #E5E7EB;
+}

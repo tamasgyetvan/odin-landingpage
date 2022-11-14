@@ -154,6 +154,7 @@ button {
     font-size: 18px;
     color: #1F2937;
     margin: 5px;
+    padding-bottom: 75px;
 }
 
 /**style of section 3**/
@@ -211,3 +212,12 @@ button {
     font-weight: 600;
 }
 
+/**style of footer**/
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+    
+}
